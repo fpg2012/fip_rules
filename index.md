@@ -2,122 +2,69 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## 规则
+- #### 要素
+  - 角色
+    - 属性
+    - 能力
+    - 装备
+  - 牌栈
+    - 摸牌栈和弃牌栈
+    - 商店
+  - 游戏地图
+- #### 效果机制
+  - 伤害与回复
+  - 纯效果
+    - 升级
+    - 功能(属性相克)
+    - 程序效果与场景效果
+- #### 流机制
+  - 牌流(牌的使用)
+  - 资源流(资源的使用)
+    - 电能
+    - 矿石
+  - 金钱流(货币的使用)
+  - 其他
+    - 交易
+    - 判定中的算子
+- #### 移动机制
+  - 距离的测算
+    - G距离(计格法)
+    - S距离(计步法)
+    - R距离
+  - 移动力(M)
+  - 速度(Sp)
+  - 资源消耗
 
-[Link to another page](another-page).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+## 牌
+- 角色
+- 基本牌
+- 建筑
+  - 通行类建筑
+  - 非通建筑
+  - 场景默认建筑
+    - 基地
+    - 中央商店
+    - 高铁站
+    - 研发中心
+  - 建筑群
+- 程序
+  - 瞬时程序
+  - 延时程序
+- 场景
+- 装备
+  - 手部
+    - 剑
+    - 盾
+    - 枪
+  - 背部
+    - 背包与背部推进器
+    - 炮
+    - 电脑
+  - 头部
+    - 头盔
+    - 眼镜
+  - 脚部
+    - 鞋与下端推进器
+- 电脑
+- 扩展
